@@ -1,6 +1,6 @@
 # Tailwind JIT Starter React
 
-Feel free to use the sample code to setup tailwind with jit for your app. The project will act as a codebase for my [blog](http://savio.xyz/)
+나중에 파일구조 업데이트 할 예정!
 
 ## Setup
 
