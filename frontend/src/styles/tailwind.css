@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+}
+
+@font-face {
+  font-family: "NeoB";
+  src: url("./../assets/font/appleSDGothicNeoB.ttf");
+}
+@font-face {
+  font-family: "NeoEB";
+  src: url("./../assets/font/appleSDGothicNeoEB.ttf");
+}
+@font-face {
+  font-family: "NeoH";
+  src: url("./../assets/font/appleSDGothicNeoH.ttf");
+}
+@font-face {
+  font-family: "NeoL";
+  src: url("./../assets/font/appleSDGothicNeoL.ttf");
+}
+@font-face {
+  font-family: "NeoM";
+  src: url("./../assets/font/appleSDGothicNeoM.ttf");
+}
+@font-face {
+  font-family: "NeoR";
+  src: url("./../assets/font/appleSDGothicNeoR.ttf");
+}
+@font-face {
+  font-family: "NeoSB";
+  src: url("./../assets/font/appleSDGothicNeoSB.ttf");
+}
+@font-face {
+  font-family: "NeoT";
+  src: url("./../assets/font/appleSDGothicNeoT.ttf");
+}
+@font-face {
+  font-family: "NeoUL";
+  src: url("./../assets/font/appleSDGothicNeoUL.ttf");
+}
+.custom-scroll::-webkit-scrollbar {
+  width: 5px;
+}
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: white;
+  border-radius: 100px;
+}
+.custom-scroll::-webkit-scrollbar-thumb {
+  border-radius: 100px;
+  background-image: linear-gradient(180deg, #c7c7c7 0%, #c7c7c7 99%);
+  box-shadow: inset 2px 2px 5px 0 rgba(#fff, 0.5);
+}
